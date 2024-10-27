@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subilash's Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Main Colors */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background: linear-gradient(to right, #4A90E2, #FF69B4); /* Blue to pink gradient */
+        }
+
+        /* Header Styling */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        /* Navigation Styling */
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 40px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 20px 10%;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #FF69B4;
+        }
+
+        section p {
+            font-size: 1.2em;
+            color: #4A90E2;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Subilash's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#gaming">Gaming</a></li>
+                <li><a href="#animation">Animation</a></li>
+                <li><a href="#programming">Programming</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Subilash, a passionate gamer, animator, and programmer. I'm constantly exploring new ways to bring creativity and innovation to life through my projects. From designing engaging games to creating animations and writing code, I love every part of my journey. Welcome to my portfolio!</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Gaming | Animation | Programming</p>
+    </section>
+
+    <!-- Gaming Section -->
+    <section id="gaming">
+        <h2>Gaming</h2>
+        <p>I’m passionate about gaming and love exploring new games and gaming technologies. Stay tuned for updates on my gaming projects!</p>
+    </section>
+
+    <!-- Animation Section -->
+    <section id="animation">
+        <h2>Animation</h2>
+        <p>Animation is an art that brings imagination to life. Check out some of my recent animations and creative projects here.</p>
+    </section>
+
+    <!-- Programming Section -->
+    <section id="programming">
+        <h2>Programming</h2>
+        <p>Coding is a superpower! I create solutions and work on projects in various programming languages. Dive into my code world here.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Subilash's Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
